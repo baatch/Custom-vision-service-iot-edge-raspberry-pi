@@ -59,6 +59,7 @@ RUN pip install trollius tornado
 RUN [ "cross-build-end" ]  
 
 ADD /app/ .
+ADD /test/ .
 
 # Expose the port
 EXPOSE 5012
